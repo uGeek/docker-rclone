@@ -2,7 +2,7 @@ FROM alpine:latest
 MAINTAINER tynor88 <tynor@hotmail.com>
 
 # global environment settings
-ENV PLATFORM_ARCH="amd64"
+ENV PLATFORM_ARCH="arm
 ARG RCLONE_VERSION="current"
 
 # s6 environment settings
